@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ffe3ec">
+<title>Happy Birthday My Little Princess Yuzeeee 👑</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --pink: #f4a9c4;
+  --pink-deep: #d96f9a;
+  --pink-light: #fff0f5;
+  --pink-pale: #fff8fb;
+  --rose: #b94f7b;
+  --ink: #543344;
+  --muted: #805d6d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--ink);
+  background: var(--pink-pale);
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  padding: 90px 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 12% 15%, #fff 0%, transparent 27%),
+    radial-gradient(circle at 88% 82%, #f7bed3 0%, transparent 30%),
+    linear-gradient(135deg, #fff8fb, #ffe8f0);
+
+  border-bottom: 1px solid #efc3d3;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .45;
+
+  background-image:
+    radial-gradient(circle, #e79ab8 1px, transparent 1.7px),
+    radial-gradient(circle, white 1.5px, transparent 2px);
+
+  background-size: 75px 75px, 115px 115px;
+}
+
+section > * {
+  position: relative;
+  z-index: 1;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: clamp(42px, 8vw, 86px);
+  color: #75445b;
+}
+
+h2 {
+  font-size: clamp(32px, 5.7vw, 58px);
+  margin-bottom: 20px;
+  color: #75445b;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.script {
+  font-family: 'Great Vibes', cursive;
+  color: var(--pink-deep);
+  font-weight: 400;
+}
+
+.hero-script {
+  font-size: clamp(52px, 9vw, 100px);
+  margin-top: 10px;
+}
+
+.eyebrow {
+  color: var(--rose);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  max-width: 720px;
+  line-height: 1.95;
+  margin: 22px auto;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.heartline {
+  color: var(--pink-deep);
+  font-size: 25px;
+  margin: 18px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 28px;
+  border: 1px solid var(--pink-deep);
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(120deg, #e88caf, #ce668f);
+  box-shadow: 0 8px 22px #c9638f33;
+  transition: .25s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px #c9638f55;
+}
+
+.scroll {
+  margin-top: 38px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #a56b83;
+}
+
+/* BIRTHDAY LETTER */
+
+.card {
+  width: min(900px, 100%);
+  padding: 36px;
+  text-align: left;
+  line-height: 1.9;
+  border: 1px solid #edb7cc;
+  border-radius: 22px;
+  background: #ffffffd9;
+  box-shadow: 0 18px 50px #a453771f;
+  backdrop-filter: blur(8px);
+}
+
+.card h3 {
+  color: var(--rose);
+  margin-bottom: 16px;
+}
+
+.card p {
+  margin-bottom: 17px;
+  color: #765567;
+  font-size: 14px;
+}
+
+.signature {
+  text-align: right;
+  color: var(--pink-deep);
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+}
+
+/* CARDS */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  width: min(1100px, 100%);
+  margin-top: 28px;
+}
+
+.quote-card {
+  padding: 27px 20px;
+  border: 1px solid #edbfd0;
+  border-radius: 18px;
+  background: #ffffffd9;
+  transition: .25s;
+  box-shadow: 0 9px 25px #a4537717;
+}
+
+.quote-card:hover {
+  transform: translateY(-5px);
+}
+
+.emoji {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.quote-card h3 {
+  color: var(--rose);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.quote-card p {
+  color: #805d6d;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+/* ENDLESS LOVE QUOTES */
+
+.love-section {
+  background: linear-gradient(135deg, #ffeaf2, #ffd9e7, #fff4f8);
+}
+
+.love-bow {
+  font-size: 34px;
+  margin-bottom: 12px;
+  color: var(--pink-deep);
+}
+
+.love-subtitle {
+  max-width: 720px;
+  line-height: 1.9;
+  margin: 0 auto 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.endless-quote-card {
+  width: min(700px, 100%);
+  text-align: center;
+  padding: 36px 25px;
+  border: 1px solid #e9a9c2;
+  border-radius: 25px;
+  background: #ffffffed;
+  box-shadow: 0 18px 45px #a4537726;
+}
+
+.endless-emoji {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+#loveQuote {
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #684457;
+  font-size: clamp(17px, 2.5vw, 22px);
+  line-height: 1.9;
+  margin-bottom: 22px;
+}
+
+.quote-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.quote-controls button {
+  border: 1px solid var(--pink-deep);
+  border-radius: 30px;
+  padding: 12px 19px;
+  background: #fff0f5;
+  color: #a74772;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.quote-controls button:hover {
+  background: var(--pink-deep);
+  color: white;
+}
+
+#quoteCounter {
+  font-size: 12px;
+  color: #98647c;
+}
+
+.love-footer {
+  font-style: italic;
+  color: #98647c;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+/* FINAL SECTION */
+
+.big-quote {
+  max-width: 950px;
+  font-size: clamp(30px, 5vw, 58px);
+  line-height: 1.4;
+}
+
+.final-love {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(50px, 10vw, 95px);
+  color: var(--pink-deep);
+  margin: 22px 0;
+  text-shadow: 0 0 24px #d96f9a33;
+}
+
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #f8dce7;
+  color: #85566d;
+  font-size: 12px;
+  border-top: 1px solid #edb7cc;
+}
+
+/* MUSIC BUTTON */
+
+.music {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid #d96f9a;
+  background: white;
+  color: #c45c87;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: 0 7px 22px #a4537733;
+}
+
+/* FLOATING HEARTS */
+
+.heart {
+  position: fixed;
+  top: -35px;
+  color: #df83a7;
+  pointer-events: none;
+  z-index: 5;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width: 750px) {
+  section {
+    padding: 75px 6%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 25px;
+  }
+}
+
+@media(max-width: 600px) {
+  .endless-quote-card {
+    padding: 28px 16px;
+  }
+
+  .quote-controls {
+    flex-direction: column;
+  }
+
+  .quote-controls button {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .eyebrow {
+    letter-spacing: 2px;
+  }
+}
+
+@media(prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- SECTION 1: HOME -->
+
+<section id="home">
+
+  <div class="eyebrow">
+    ♛ Today Is All About You ♛
+  </div>
+
+  <div class="heartline">♡ ───── ♡</div>
+
+  <h1>Happy Birthday,</h1>
+
+  <div class="script hero-script">
+    My Little Princess Yuzeeee 👑
+  </div>
+
+  <p class="subtitle">
+    To my sweetest little princess, may your day sparkle
+    with happiness, your heart be wrapped in love, and
+    every little moment feel like a fairytale. 🧸💕
+  </p>
+
+  <a class="btn" href="#letter">
+    Open Your Birthday Surprise 💌
+  </a>
+
+  <div class="scroll">
+    SCROLL TO DISCOVER ✨ ↓
+  </div>
+
+</section>
+
+
+<!-- SECTION 2: BIRTHDAY LETTER -->
+
+<section id="letter">
+
+  <div class="eyebrow">
+    A Little Letter From My Heart
+  </div>
+
+  <h2>
+    For You, <span class="script">With Love</span>
+  </h2>
+
+  <div class="heartline">♡</div>
+
+  <div class="card">
+
+    <h3>♡ My Sweetest Princess, 🎀</h3>
+
+    <p>
+      Today is extra special because it celebrates someone
+      who brings so much sweetness and happiness into the
+      world. I hope your birthday is filled with smiles,
+      warm hugs, cute surprises and beautiful moments.
+    </p>
+
+    <p>
+      You deserve the prettiest dreams, the happiest days,
+      and a thousand reasons to smile. Never forget how
+      precious you are and how much joy you bring.
+    </p>
+
+    <p>
+      May this new year of your life be sprinkled with magic,
+      kindness and lovely adventures. Keep shining in your
+      own beautiful way, my little princess baby. 🌹
+    </p>
+
+    <p style="color:#c45c87;font-weight:600">
+      You are so precious, today and always. ♡
+    </p>
+
+    <p>
+      Happy Birthday to the sweetest star in the sky.
+      May all your wishes come true! 🎂
+    </p>
+
+    <div class="signature">
+      Forever Sending Love ♡
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION 3: ENDLESS LOVE QUOTES -->
+
+<section id="quotes" class="love-section">
+
+  <div class="love-bow">♛ ✨ ♛</div>
+
+  <h2>
+    ∞ Endless <span class="script">Love Quotes</span> ∞
+  </h2>
+
+  <p class="love-subtitle">
+    A million little ways to say I love you,
+    My Princess Baby 💗
+  </p>
+
+  <div class="quote-card endless-quote-card">
+
+    <div id="loveEmoji" class="endless-emoji">
+      💗
+    </div>
+
+    <p id="loveQuote" aria-live="polite">
+      You are my favorite thought and my sweetest dream. 💖
+    </p>
+
+    <div class="quote-controls">
+
+      <button type="button" id="previousQuote">
+        ♡ Previous
+      </button>
+
+      <span id="quoteCounter" aria-live="polite">
+        Quote 1 of 20
+      </span>
+
+      <button type="button" id="nextQuote">
+        Next Love Quote ♡
+      </button>
+
+    </div>
+
+  </div>
+
+  <p class="love-footer">
+    Made with endless love, just for you 🧸
+  </p>
+
+</section>
+
+
+<!-- SECTION 4: SPECIAL -->
+
+<section id="special">
+
+  <div class="eyebrow">
+    Just A Little Reminder
+  </div>
+
+  <h2>
+    Why You're <span class="script">So Special</span>
+  </h2>
+
+  <div class="heartline">♥</div>
+
+  <div class="grid">
+
+    <div class="quote-card">
+      <div class="emoji">♡</div>
+      <h3>Your Smile</h3>
+      <p>
+        Your smile can turn a cloudy day into
+        something bright and beautiful.
+      </p>
+    </div>
+
+    <div class="quote-card">
+      <div class="emoji">✧</div>
+      <h3>Your Heart</h3>
+      <p>
+        Your kindness is a lovely kind of magic
+        that makes the world feel warmer.
+      </p>
+    </div>
+
+    <div class="quote-card">
+      <div class="emoji">🌹</div>
+      <h3>Your Presence</h3>
+      <p>
+        You bring your own special sparkle wherever
+        you go. Never stop shining.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION 5: BIRTHDAY WISHES -->
+
+<section id="wishes">
+
+  <div class="eyebrow">
+    My Wishes For You
+  </div>
+
+  <h2>
+    May Your Year Be <span class="script">Beautiful</span>
+  </h2>
+
+  <div class="heartline">♡</div>
+
+  <div class="grid">
+
+    <div class="quote-card">
+      <div class="emoji">🌈</div>
+      <h3>More Happiness</h3>
+      <p>
+        May your days be filled with genuine smiles
+        and lovely surprises.
+      </p>
+    </div>
+
+    <div class="quote-card">
+      <div class="emoji">☆</div>
+      <h3>Big Dreams</h3>
+      <p>
+        May you chase every dream and find the
+        courage to make it real.
+      </p>
+    </div>
+
+    <div class="quote-card">
+      <div class="emoji">🦋</div>
+      <h3>Sweet Moments</h3>
+      <p>
+        May this year give you memories that
+        make your heart smile.
+      </p>
+    </div>
+
+    <div class="quote-card">
+      <div class="emoji">♥</div>
+      <h3>Endless Love</h3>
+      <p>
+        May you always be surrounded by kindness,
+        patience, respect and the happiness you deserve. 💗
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION 6: FINAL MESSAGE -->
+
+<section id="ending">
+
+  <div class="heartline">♡</div>
+
+  <div class="eyebrow">
+    One Last Thing...
+  </div>
+
+  <h2 class="big-quote">
+    If I Could Give You
+    <span class="script">One Thing</span>
+  </h2>
+
+  <p class="subtitle">
+    I would give you the ability to see yourself
+    through kind eyes, so you could see just how
+    wonderful, precious, and special you truly are.
+  </p>
+
+  <div class="final-love">
+    My Little Princess Baby
+  </div>
+
+  <h3>Happy Birthday, Sweetheart! 🎂</h3>
+
+  <div class="heartline">♡ ♡ ♡</div>
+
+  <p class="subtitle">
+    Here's to you, your dreams, and all the beautiful
+    moments still waiting to be made. 🎀
+  </p>
+
+  <a class="btn" href="#home">
+    Back To The Beginning ↑
+  </a>
+
+</section>
+
+
+<footer>
+  Made With Love, Just For You 💗
+  <br>
+  Happy Birthday, My Little Princess Baby ♛
+</footer>
+
+
+<!-- MUSIC BUTTON -->
+
+<button
+  class="music"
+  id="musicBtn"
+  type="button"
+  aria-label="Play or pause melody"
+  aria-pressed="false">
+  ♫
+</button>
+
+
+<script>
+
+// FLOATING HEARTS
+
+const reduceMotion =
+  window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function createHeart() {
+
+  if (reduceMotion) return;
+
+  const heart = document.createElement("div");
+
+  heart.className = "heart";
+
+  heart.textContent =
+    ["♡", "♥", "✦", "✧", "🎀"][
+      Math.floor(Math.random() * 5)
+    ];
+
+  heart.style.left = Math.random() * 100 + "vw";
+
+  heart.style.fontSize =
+    (12 + Math.random() * 18) + "px";
+
+  const duration = 7 + Math.random() * 7;
+
+  heart.style.animationDuration = duration + "s";
+
+  document.body.appendChild(heart);
+
+  setTimeout(() => heart.remove(), duration * 1000);
+}
+
+if (!reduceMotion) {
+  setInterval(createHeart, 850);
+}
+
+
+// ORIGINAL BACKGROUND MELODY
+
+let audioContext = null;
+let playing = false;
+let timer = null;
+let noteIndex = 0;
+
+const notes = [
+  523.25, 659.25, 783.99, 659.25,
+  587.33, 698.46, 783.99, 698.46
+];
+
+const musicButton = document.getElementById("musicBtn");
+
+function playNote() {
+
+  if (!playing || !audioContext) return;
+
+  const oscillator = audioContext.createOscillator();
+  const gain = audioContext.createGain();
+
+  const now = audioContext.currentTime;
+
+  oscillator.type = "sine";
+
+  oscillator.frequency.value =
+    notes[noteIndex % notes.length];
+
+  gain.gain.setValueAtTime(0.001, now);
+
+  gain.gain.exponentialRampToValueAtTime(
+    0.035, now + 0.04
+  );
+
+  gain.gain.exponentialRampToValueAtTime(
+    0.001, now + 0.38
+  );
+
+  oscillator.connect(gain);
+  gain.connect(audioContext.destination);
+
+  oscillator.start(now);
+  oscillator.stop(now + 0.4);
+
+  noteIndex++;
+}
+
+musicButton.addEventListener("click", async () => {
+
+  const AudioEngine =
+    window.AudioContext || window.webkitAudioContext;
+
+  if (!AudioEngine) {
+    alert("Your browser does not support this music feature.");
+    return;
+  }
+
+  if (!audioContext) {
+    audioContext = new AudioEngine();
+  }
+
+  if (audioContext.state === "suspended") {
+    await audioContext.resume();
+  }
+
+  playing = !playing;
+
+  musicButton.textContent = playing ? "❚❚" : "♫";
+
+  musicButton.setAttribute(
+    "aria-pressed",
+    String(playing)
+  );
+
+  musicButton.setAttribute(
+    "aria-label",
+    playing ? "Pause melody" : "Play melody"
+  );
+
+  if (playing) {
+
+    playNote();
+
+    timer = setInterval(playNote, 480);
+
+  } else {
+
+    clearInterval(timer);
+    timer = null;
+
+  }
+
+});
+
+
+// 20 ENDLESS LOVE QUOTES
+
+const loveQuotes = [
+
+  "You are my favorite thought and my sweetest dream. 💖",
+
+  "If I could gift you one thing, it would be seeing yourself through my eyes. 🎀",
+
+  "Every little moment feels special when it reminds me of you. 🌹",
+
+  "You make my world brighter just by being in it. ✨",
+
+  "My favorite place is wherever happiness finds you. 🧸",
+
+  "You are a beautiful chapter in my favorite story. 💌",
+
+  "If smiles were stars, you would light up the whole sky. 🌙",
+
+  "No birthday cake could ever be as sweet as your smile. 🎂",
+
+  "I hope life gives you as much happiness as you bring to others. 💗",
+
+  "You deserve peaceful days, warm hugs, and beautiful surprises. 🌷",
+
+  "Some people make life lovely just by being themselves. 🦋",
+
+  "May every dream in your heart find its way to you. 💕",
+
+  "You are a little sunshine wrapped in a world of magic. ☀️",
+
+  "Even ordinary days feel special when they hold a memory of you. 💗",
+
+  "May your heart always have a thousand reasons to smile. 🌈",
+
+  "You are precious, unforgettable, and wonderfully you. 👑",
+
+  "My wish for you is endless laughter and beautiful memories. 🎉",
+
+  "The world feels a little more magical with you in it. ✨",
+
+  "You deserve kindness, patience, and respect every day. 💞",
+
+  "Happy Birthday, My Little Princess Baby! Stay magical forever. 👑"
+
+];
+
+const loveEmojis = [
+  "💗", "👑", "🌹", "🎀",
+  "✨", "💌", "🦋", "💕"
+];
+
+let quoteIndex = 0;
+
+
+function showLoveQuote() {
+
+  document.getElementById("loveQuote").textContent =
+    loveQuotes[quoteIndex];
+
+  document.getElementById("loveEmoji").textContent =
+    loveEmojis[quoteIndex % loveEmojis.length];
+
+  document.getElementById("quoteCounter").textContent =
+    `Quote ${quoteIndex + 1} of ${loveQuotes.length}`;
+
+}
+
+
+function nextLoveQuote() {
+
+  quoteIndex =
+    (quoteIndex + 1) % loveQuotes.length;
+
+  showLoveQuote();
+
+}
+
+
+function previousLoveQuote() {
+
+  quoteIndex =
+    (quoteIndex - 1 + loveQuotes.length) % loveQuotes.length;
+
+  showLoveQuote();
+
+}
+
+
+document.getElementById("nextQuote").addEventListener(
+  "click", nextLoveQuote
+);
+
+document.getElementById("previousQuote").addEventListener(
+  "click", previousLoveQuote
+);
+
+showLoveQuote();
+
+</script>
+
+</body>
+</html>
